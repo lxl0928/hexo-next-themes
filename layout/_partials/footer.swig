@@ -5,8 +5,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-{{ theme.footer.icon.name }}"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Timi.long</span>  #theme.footer.copyright | default(author)# }}</span>
-
+  <span class="author" itemprop="copyrightHolder"><a href="http://blog.timilong.com/about" target="_blank"> Timi.long </a></span>
   {% if config.symbols_count_time.total_symbols %}
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
@@ -62,3 +61,24 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+
+<!-- 新增访客统计代码 -->
+
+<div class="busuanzi-count">
+    <script async="" src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      访问用户： <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 人
+    </span>
+    <div class="powered-by"></div>
+    <span class="site-uv">
+      <i class="fa fa-eye"></i>
+      访问次数： <span class="busuanzi-value" id="busuanzi_value_site_pv"></span> 次
+    </span>
+    <!-- 博客字数统计
+    <span class="site-pv">
+      <i class="fa fa-pencil"></i>
+      博客全站共： <span class="post-count">{{ totalcount(site) }} </span> 字
+    </span> -->
+</div>
+<!-- 新增访客统计代码 END-->
