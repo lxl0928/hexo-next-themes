@@ -3,6 +3,7 @@ title:
   category: 分类
   tag: 标签
   schedule: 日程表
+  photos: 相册
 
 author: 博主
 
@@ -10,6 +11,7 @@ menu:
   home: 首页
   archives: 归档
   categories: 分类
+  photos: 相册
   tags: 标签
   about: 关于
   search: 搜索
